@@ -1,0 +1,333 @@
+/* Reset básico */
+* {
+    margin: 33px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+/* Encabezado */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header h1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 30px 10px 10px 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Sección Hero */
+#hero {
+    background-color: #dd1b1b;
+    color: #fff;
+    padding: 60px 0;
+    text-align: center;
+}
+
+#hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+#hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+#hero .btn {
+    background-color: #fff;
+    color: #dd1b1b;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Secciones generales */
+.section {
+    padding: 40px 0;
+}
+
+.section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #dd1b1b;
+}
+
+.h2{
+display: flex;
+justify-content: center;
+padding: 0px 0px 70px 0px;
+color: #dd1b1b
+}
+
+/* Imagen de presentación */
+.foto-presentacion {
+    display: block;
+    margin: 20px auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #dd1b1b;
+}
+
+/* Sección "Sobre Mí" */
+#sobre-mi p {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.1em;
+    line-height: 1.8;
+}
+
+/* Contenedor para "Aficiones" y "Estudios" lado a lado */
+.secciones-lado-a-lado {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+/* Sección "Aficiones" */
+#aficiones ul {
+    list-style: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#aficiones ul li {
+    background-color: #fff;
+    margin: 17px auto;
+    padding: 30px;
+    border: 10px solid #ddd;
+    border-radius: 30px;
+    max-width: 500px;
+    font-size: 1.1em;
+    max-height: 43px;
+}
+
+#aficiones {
+    flex: 1;
+    min-width: 300px;
+}
+
+#aficiones h2,
+#estudios h2 {
+    text-align: center;
+    margin-bottom: 100px;
+    font-size: 2em;
+    color: #dd1b1b;
+}
+
+.aficiones-lista {
+    list-style: none;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.aficiones-lista li {
+    background-color: #fff;
+    margin: 10px 0;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1.1em;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.aficiones-lista li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.aficiones-lista li i {
+    font-size: 1.5em;
+    color: #dd1b1b;
+}
+
+/* Sección "Estudios" */
+#estudios ul {
+    list-style: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#estudios ul li {
+    background-color: #fff;
+    margin: 35px auto;
+    padding: 12px;
+    border: 10px solid #ddd;
+    border-radius: 32px;
+    max-width: 380px;
+    font-size: 1.1em;
+}
+
+/* Sección "Proyectos" */
+#proyectos .proyectos-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.proyecto {
+    background-color: #fff;
+    padding: 30px;
+    margin: 20px;
+    border: 5px solid #ddd;
+    border-radius: 16px;
+    width: auto;
+    text-align: center;
+}
+
+.proyecto img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.proyecto h3 {
+    margin: 15px 0 10px;
+    font-size: 1.5em;
+}
+
+.proyecto p {
+    font-size: 1em;
+    color: #555;
+}
+
+.proyecto .btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #dd1b1b;
+    color: #fff;
+}
+    /*Footer*/
+    .footer {
+        background-color: #f4f4f4;
+        padding: 20px;
+        text-align: center;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 15px;
+    }
+
+    .contact-form {
+        max-width: 400px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .contact-form input {
+        padding: 10px;
+        border: 2px solid #dd1b1b;
+        border-radius: 25px;
+        font-size: 16px;
+    }
+
+    .contact-form input:focus {
+        outline: none;
+        border-color: #dd1b1b;
+        box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    }
+
+    .contact-form button {
+        padding: 10px;
+        background-color: #dd1b1b;
+        color: white;
+        border: none;
+        border-radius: 25px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    .contact-form button:hover {
+        background-color: #dd1b1b;
+    }
+
+    .contact-form label {
+        font-size: 14px;
+        color: #333;
+        text-align: left;
+    }
+
+    .contact-form {
+        max-width: 400px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .contact-form input {
+        padding: 10px;
+        border: 2px solid #dd1b1b;
+        border-radius: 25px;
+        font-size: 16px;
+    }
+
+    .contact-form input:focus {
+        outline: none;
+        border-color: #dd1b1b;
+        box-shadow: 5px 5px 5px rgba(255, 52, 52, 0.5);
+    }
+
+    .contact-form button {
+        padding: 10px;
+        background-color: #dd1b1b;
+        color: white;
+        border: none;
+        border-radius: 25px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    .contact-form button:hover {
+        background-color: #791818;
+    }
+
+    .contact-form label {
+        font-size: 14px;
+        color: #333;
+        text-align: left;
+    } 
